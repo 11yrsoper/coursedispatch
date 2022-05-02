@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Inter;
+	overflow-x: none;
+}
+.navigation {
+	width: 100vw;
+	height: 65px;
+	background-color: #ebda40;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-logo {
+	margin-left: 22px;
+	height: 22px;
+	width: 173px;
+	user-select: none;
+}
+.appt-btn {
+	margin-right: 13px;
+	background-color: #000;
+	height: 47px;
+	width: 281px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	display: flex;
+	color: white;
+	font-size: 15px;
+	font-weight: 500;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero1 {
+	width: 100vw;
+	height: 368px;
+	background-color: #f3f3f3;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.heroChild {
+	margin: auto;
+}
+.heroChild1 h1 {
+	max-width: 371px;
+	font-size: 36px;
+}
+.heroChild1 h3 {
+	max-width: 350px;
+	font-size: 20px;
+	color: #3f3f3f;
+}
+.heroChild2 {
+	display: flex;
+	flex-direction: column;
+}
+.img-placeholder {
+	width: 546px;
+	height: 279px;
+	background-color: lightgray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.signature {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+.icons {
+	display: flex;
+	gap: 8px;
+}
+.fb-icon {
+	margin-left: 16.5px;
+}
+.sm-icon {
+	height: 25px;
+	width: 25px;
+	cursor: pointer;
+}
+
+.divider {
+	width: 80%;
+	margin-left: 10%;
+	background-color: #c4c4c4;
+	height: 1px;
+}
+
+.hero2 {
+	width: 100vw;
+	height: 389px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.hero2Child1 {
+	display: flex;
+	flex-direction: column;
+	width: 555px;
+}
+.heroChild1 h1 {
+	width: 555px;
+	font-size: 30px;
+	font-weight: 800;
+	margin-top: 16px;
+}
+
+.hero2Child1 h4 {
+	color: #636363;
+	font-size: 23px;
+	font-weight: 500;
+}
+.problem-txt {
+	height: 39px;
+	width: 170px;
+	background-color: #ec5151;
+}
+
+.hero2Child2 {
+}
+.hero2Child2 h1 {
+}
+
+.hero2Child2 h4 {
+	margin-top: 22px;
+	width: 600px;
+	color: #636363;
+	font-size: 23px;
+	font-weight: 500;
+}
+.h2c2-list {
+	font-weight: 700;
+	color: #494747;
+}
+
+.solution-bg {
+	width: inherit;
+	height: inherit;
+	background-color: #ebda40;
+}
