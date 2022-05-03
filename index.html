@@ -1,205 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Course Dispatch</title>
-		<link rel="stylesheet" href="./styles.css" class="rel" />
-		<link rel="icon" href="./static/CD.ico">
 
-		<!-- Meta Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '838787250848033');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=838787250848033&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-	</head>
-	<body>
-		<!-- Messenger Chat plugin Code -->
-    <div id="fb-root"></div>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Course Dispatch</title>
+	<link rel="stylesheet" href="./styles.css" class="rel" />
+	<link rel="icon" href="./static/CD.ico">
 
-    <!-- Your Chat plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+	<!-- Meta Pixel Code -->
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return; n = f.fbq = function () {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+			n.queue = []; t = b.createElement(e); t.async = !0;
+			t.src = v; s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '838787250848033');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=838787250848033&ev=PageView&noscript=1" /></noscript>
+	<!-- End Meta Pixel Code -->
+</head>
 
-    <script>
-		
+<body>
+	<!-- Messenger Chat plugin Code -->
+	<div id="fb-root"></div>
 
+	<!-- Your Chat plugin code -->
+	<div id="fb-customer-chat" class="fb-customerchat">
+	</div>
 
+	<script>
 
+		var chatbox = document.getElementById('fb-customer-chat');
+		chatbox.setAttribute("page_id", "115550304471532");
+		chatbox.setAttribute("attribution", "biz_inbox");
+	</script>
 
+	<!-- Your SDK code -->
+	<script>
+		window.fbAsyncInit = function () {
+			FB.init({
+				xfbml: true,
+				version: 'v13.0'
+			});
+		};
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "115550304471532");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml: true,
-          version: 'v13.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-		<script src="./script.js"></script>
-		<div class="navigation">
-			<img
-				class="nav-logo"
-				alt="Course Dispatch Logo"
-				src="./static/logoblack.png"
-			/>
-			<a href="#schedule" id="appt-cta" class="appt-btn"
-				>Schedule Your FREE Audit Call Now</a
-			>
+		(function (d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<script src="./script.js"></script>
+	<div class="navigation">
+		<img class="nav-logo" alt="Course Dispatch Logo" src="./static/logoblack.png" />
+		<a href="#schedule" id="appt-cta" class="appt-btn">Schedule Your FREE Audit Call Now</a>
+	</div>
+	<div class="hero1">
+		<div class="heroChild1">
+			<h1>We help Info Product businesses scale destructively 📈</h1>
+			<h3>via Paid Advertising & Personalized funnels</h3>
 		</div>
-		<div class="hero1"
-			><div class="heroChild1">
-				<h1>We help Info Product businesses scale destructively 📈</h1>
-				<h3>via Paid Advertising & Personalized funnels</h3>
+		<div class="heroChild2">
+			<div class="img-placeholder">
+				<h1>Picture Of Me</h1>
 			</div>
-			<div class="heroChild2">
-            <div class="img-placeholder"><h1>Picture Of Me</h1></div>
-				<div class="signature">
-					<h2>~ Ahmed Elmamlook</h2>
-					<a target="_blank" href="https://www.facebook.com/AhmedTElmamlook/"> <div class="icons"><img class="sm-icon fb-icon" src="./static/fb.svg" /></a>
-					<a target="_blank" href="https://www.linkedin.com/in/ahmed-elmamlook/"><img class="sm-icon" src="./static/linkedin.svg" /></a>
-					<a target="_blank" href="https://m.me/AhmedTElmamlook"><img class="sm-icon" src="./static/messenger.svg" /></div></a>
+			<div class="signature">
+				<h2>~ Ahmed Elmamlook</h2>
+				<a target="_blank" href="https://www.facebook.com/AhmedTElmamlook/">
+					<div class="icons"><img class="sm-icon fb-icon" src="./static/fb.svg" />
+				</a>
+				<a target="_blank" href="https://www.linkedin.com/in/ahmed-elmamlook/"><img class="sm-icon"
+						src="./static/linkedin.svg" /></a>
+				<a target="_blank" href="https://m.me/AhmedTElmamlook"><img class="sm-icon"
+						src="./static/messenger.svg" />
+			</div></a>
 
-				</div>
-            </div>	
 		</div>
+	</div>
+	</div>
+	</div>
+	<div class="divider"></div>
+	<div class="hero2">
+
+		<div class="hero2Child1">
+
+			<h1>The #1 <span class="problem-txt">problem</span> that&apos;s paralyzing course creators &
+				consultants&apos; sales</h1>
+			<h4>Unlike many industries. You can&apos;t just run a paid campaign and expect to get sales right away.
+				There are many variables that account for your success
+				It&apos;s not a 1-step process, There&apos;s much more to it.
+			</h4>
 		</div>
-        <div class="divider"></div>
-        <div class="hero2">
-            
-            <div class="hero2Child1">
 
-                <h1 >The #1  <span class="problem-txt">problem</span>  that&apos;s paralyzing course creators & consultants&apos; sales</h1>
-                <h4>Unlike many industries. You can&apos;t just run a paid campaign and expect to get sales right away. There are many variables that account for your success
-                It&apos;s not a 1-step process, There&apos;s much more to it.
-            </h4>
-            </div>
+		<div class="hero2Child2">
 
-            <div class="hero2Child2">
+			<h1><span class="solution-bg">Our brilliant take</span></h1>
+			<h4>
 
-                <h1><span class="solution-bg">Our brilliant take</span></h1>
-                <h4>
+				And that&apos;s where we come in. We help you:<br><br>
+				<span class="h2c2-list">
+					-1 Build trust & rapport with your potential customers<br>
+					-2 Present you as an authority figure<br>
+					-3 Grow your audience into ultra-personalized buckets<br></span>
 
-                    And that&apos;s where we come in. We help you:<br><br>
-                    <span class="h2c2-list">
-                    -1 Build trust & rapport with your potential customers<br>
-                    -2 Present you as an authority figure<br>
-                    -3 Grow your audience into ultra-personalized buckets<br></span>
-
-                </h4>
-            </div>
+			</h4>
+		</div>
 
 
 
 
-        </div>
-        <div class="divider"></div>
-		<div class="callSection" id="schedule">
-			<h1>Let&apos;s discuss and tailor a strategy for your specific business needs (100% FREE Call) ⭐</h1>
-			<div class="callCont">
-				<div class="scheduler">
-
-					
-					<div class="calendly-inline-widget" data-url="https://calendly.com/tart-digital/30min" style="min-width:520px;height:830px;"></div>
-					<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+	</div>
+	<div class="divider"></div>
+	<div class="callSection" id="schedule">
+		<h1>Let&apos;s discuss and tailor a strategy for your specific business needs (100% FREE Call) ⭐</h1>
+		<div class="callCont">
+			<div class="scheduler">
 
 
-					
-				</div>
-				<div class="scheduleDesc">
-					<p class="perfectPitch">
-						<span class="underline"><strong>This call is perfect for:<br></strong></span><br>
-						<span><strong>1. Creators/Consultants </strong>that believe in the <strong>importance of online presence</strong>
-						</span><br><br>
-						<span><strong>2. Creators/Consultants </strong> looking for a <strong>reliable agency</strong> that can <strong>make their company a priority</strong></span><br><br>
-						<span><strong>3. Creators/Consultants </strong> that understand and <strong>value the power of a personal brand</strong></span>
-					</p>
+				<div class="calendly-inline-widget" data-url="https://calendly.com/tart-digital/30min"
+					style="min-width:520px;height:830px;"></div>
+				<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"
+					async></script>
 
-					<div class="disclaimer">
-						<h2>**DISCLAIMER**</h2>
-						<h4>Even if we&apos;re not a good fit (which we&apos;ll be). You'll get free value without any commitments.</h4>
-					</div>
-				</div>
-	
+
+
 			</div>
+			<div class="scheduleDesc">
+				<p class="perfectPitch">
+					<span class="underline"><strong>This call is perfect for:<br></strong></span><br>
+					<span><strong>1. Creators/Consultants </strong>that believe in the <strong>importance of online
+							presence</strong>
+					</span><br><br>
+					<span><strong>2. Creators/Consultants </strong> looking for a <strong>reliable agency</strong> that
+						can <strong>make their company a priority</strong></span><br><br>
+					<span><strong>3. Creators/Consultants </strong> that understand and <strong>value the power of a
+							personal brand</strong></span>
+				</p>
+
+				<div class="disclaimer">
+					<h2>**DISCLAIMER**</h2>
+					<h4>Even if we&apos;re not a good fit (which we&apos;ll be). You'll get free value without any
+						commitments.</h4>
+				</div>
+			</div>
+
 		</div>
+	</div>
 
-		<div class="divider"></div>
-		<div class="leadMagnet">
-			<span><h1>Get the FREE <span class="yellow-bg underline">“10 Things you should do before recording your course”</span> checklist</h1><br><h4>(still works if you are done with the production)</h4></span>
-			<button id="leadmagnetbtn" class="leadMagnetBtn">📝 Download Checklist</button>
-		</div>
-
-
-		<div class="divider"></div>
-
-
-
-
-		<footer>
-			<img class="footerLogo" src="./static/logowhite.png" alt="Logo">
-			<div class="footerTxt">
+	<div class="divider"></div>
+	<div class="leadMagnet">
+		<span>
+			<h1>Get the FREE <span class="yellow-bg underline">“10 Things you should do before recording your
+					course”</span> checklist</h1><br>
+			<h4>(still works if you are done with the production)</h4>
+		</span>
+		<button id="leadmagnetbtn" class="leadMagnetBtn">📝 Download Checklist</button>
+	</div>
 
 
-				<p>
-					Copyright &copy; <script>document.write(Date().split` `[3])</script> Course Dispatch | Powered by Tart Digital
+	<div class="divider"></div>
+
+
+
+
+	<footer>
+		<img class="footerLogo" src="./static/logowhite.png" alt="Logo">
+		<div class="footerTxt">
+
+
+			<p>
+				Copyright &copy;
+				<script>document.write(Date().split` `[3])</script> Course Dispatch | Powered by Tart Digital
 			</p>
 			<p class="x22x">All Rights Reserved | All Wrongs Reserved</p>
-			</div>
-		</footer>
-	</body>
+		</div>
+	</footer>
+</body>
+
 </html>

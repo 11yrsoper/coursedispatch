@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
 	padding: 0;
 	margin: 0;
@@ -10,6 +11,7 @@
 html {
 	scroll-behavior: smooth;
 }
+
 .navigation {
 	width: 100%;
 	height: 65px;
@@ -18,12 +20,14 @@ html {
 	align-items: center;
 	justify-content: space-between;
 }
+
 .nav-logo {
 	margin-left: 22px;
 	height: 22px;
 	width: 173px;
 	user-select: none;
 }
+
 .appt-btn {
 	text-decoration: none;
 	margin-right: 13px;
@@ -54,22 +58,27 @@ html {
 	justify-content: space-around;
 	align-items: center;
 }
+
 .heroChild {
 	margin: auto;
 }
+
 .heroChild1 h1 {
 	max-width: 371px;
 	font-size: 36px;
 }
+
 .heroChild1 h3 {
 	max-width: 350px;
 	font-size: 20px;
 	color: #3f3f3f;
 }
+
 .heroChild2 {
 	display: flex;
 	flex-direction: column;
 }
+
 .img-placeholder {
 	width: 546px;
 	height: 279px;
@@ -84,13 +93,16 @@ html {
 	align-items: center;
 	margin-top: 10px;
 }
+
 .icons {
 	display: flex;
 	gap: 8px;
 }
+
 .fb-icon {
 	margin-left: 16.5px;
 }
+
 .sm-icon {
 	height: 25px;
 	width: 25px;
@@ -111,11 +123,13 @@ html {
 	justify-content: space-around;
 	align-items: center;
 }
+
 .hero2Child1 {
 	display: flex;
 	flex-direction: column;
 	width: 555px;
 }
+
 .heroChild1 h1 {
 	width: 555px;
 	font-size: 30px;
@@ -129,6 +143,7 @@ html {
 	font-weight: 500;
 	margin-bottom: 72px;
 }
+
 .problem-txt {
 	height: 39px;
 	width: 170px;
@@ -139,6 +154,7 @@ html {
 	margin-top: 36px;
 	margin-bottom: auto;
 }
+
 .hero2Child2 h1 {
 }
 
@@ -149,6 +165,7 @@ html {
 	font-size: 23px;
 	font-weight: 500;
 }
+
 .h2c2-list {
 	font-weight: 700;
 	color: #494747;
@@ -167,6 +184,7 @@ html {
 	flex-direction: column;
 	justify-content: center;
 }
+
 .callSection h1 {
 	margin: 0 auto;
 	width: 815px;
@@ -185,6 +203,7 @@ html {
 
 .scheduleDesc {
 }
+
 .perfectPitch {
 	margin-top: 45px;
 	font-size: 25px;
@@ -203,6 +222,7 @@ html {
 	/* text-align: center; */
 	padding: 20px;
 }
+
 .disclaimer h2 {
 	text-align: center;
 	margin-bottom: 20px;
@@ -216,11 +236,13 @@ html {
 	margin-top: 36px;
 	align-items: center;
 }
+
 .yellow-bg {
 	height: 2px;
 	width: inherit;
 	background-color: #ebda40;
 }
+
 .leadMagnet h1 {
 	max-width: 758px;
 }
@@ -229,6 +251,7 @@ html {
 	text-align: center;
 	margin-top: -20px;
 }
+
 .leadMagnetBtn {
 	margin-top: 113px;
 	border: none;
@@ -261,37 +284,27 @@ footer {
 }
 
 .footerTxt {
-	/* width: 80%;
-	margin-top: 100px;
-	margin-bottom: 34px;
-	color: white;
-	margin-right: 10%; */
 	color: white;
 	margin-bottom: 34px;
 	font-size: 20px;
 	text-align: center;
 	font-weight: 700;
 }
+
 .x22x {
 	margin-top: 14px;
 }
-/* .tart-a {
-	text-decoration: none;
-	color: white;
-}
-
-.tart-a:visited {
-	text-decoration: none;
-} */
 
 @media screen and (max-width: 1040px) {
 	.hero1 {
 		flex-direction: column;
 		height: auto;
 	}
+
 	.hero1 h3 {
 		margin-bottom: 20px;
 	}
+
 	.img-placeholder,
 	.signature {
 		display: none;
@@ -301,9 +314,11 @@ footer {
 		flex-direction: column;
 		height: auto;
 	}
+
 	.hero2Child1 h1 {
 		margin-top: 30px;
 	}
+
 	.hero2Child2 h4 {
 		margin-bottom: 50px;
 	}
@@ -316,6 +331,7 @@ footer {
 		display: flex;
 		flex-direction: column;
 	}
+
 	.perfectPitch {
 		margin: 0 auto;
 	}
@@ -330,4 +346,4 @@ footer {
 		width: 60%;
 		font-size: 1rem;
 	}
-}
+} ;
